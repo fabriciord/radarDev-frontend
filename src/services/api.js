@@ -1,5 +1,5 @@
 import axios from 'axios';
 const api = axios.create({
-    baseURL: 'https://young-spire-06641.herokuapp.com',
+    baseURL: process.env.REACT_APP_API_URL,
 });
 export default api;
