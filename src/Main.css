@@ -9,7 +9,7 @@ main ul {
     list-style: none;
     width: 100%;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1480px) {
     main {
         width: 340px;
     }
